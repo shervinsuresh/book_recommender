@@ -159,7 +159,6 @@ rec=gui()
 rec.addButtons(["Night Mode"], press2)
 rec.addLabel("l3", "Recommendations")
 rec.addMessage("mess",recommendations)
-rec.infoBox("recommendations are saved"," your recommendations are also saved as csv file")
 recommendations.to_csv('user_recommendation.csv')
 rec.go()
 
